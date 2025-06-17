@@ -88,7 +88,7 @@ button:hover {
   font-weight: bold;
   color: #ffffff;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   body {
     transform: scale(2.0); /* Aumenta o "zoom" */
     transform-origin: top center; /* Mantém centralizado no topo */
