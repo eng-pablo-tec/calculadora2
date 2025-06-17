@@ -90,7 +90,7 @@ button:hover {
 }
 @media screen and (max-width: 600px) {
   body {
-    transform: scale(1.4); /* Aumenta o "zoom" */
+    transform: scale(2.0); /* Aumenta o "zoom" */
     transform-origin: top center; /* Mantém centralizado no topo */
   }
 
