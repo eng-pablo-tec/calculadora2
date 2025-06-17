@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Horas Trabalhadas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calculadora de Horas Trabalhadas</h1>
+
+  <div class="card">
+    <h2>Calcule suas Horas Trabalhadas</h2>
+
+    <div class="campo">
+      <label>Entrada</label>
+      <input type="time" id="entrada">
+    </div>
+
+    <div class="campo">
+      <label>Início do Intervalo</label>
+      <input type="time" id="inicioIntervalo">
+    </div>
+
+    <div class="campo">
+      <label>Fim do Intervalo</label>
+      <input type="time" id="fimIntervalo">
+    </div>
+
+    <div class="campo">
+      <label>Saída</label>
+      <input type="time" id="saida">
+    </div>
+
+    <button onclick="calcularHoras()">CALCULAR</button>
+  </div>
+
+  <div class="resultado">
+    <h3>Resultado</h3>
+    <p>Horas Trabalhadas: <span id="total">00:00</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
